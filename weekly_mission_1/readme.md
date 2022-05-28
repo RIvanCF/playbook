@@ -19,6 +19,8 @@
   
   ### Evidencia 🔗
   <a href="https://github.com/RIvanCF/playbook/blob/main/weekly_mission_1/hello.js"><img src="https://img.shields.io/badge/Practica%200-Hola-green"></a>
+  
+  ![Windows PowerShell 2022-05-28 02-44-29_Trim (1)](https://user-images.githubusercontent.com/99302791/170816459-960dd58c-b7cb-4e9f-8de3-2c046988c291.gif)
 
   </details>
   
