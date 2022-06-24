@@ -2,7 +2,7 @@
 ## Primeros codigos en JS 👨🏻‍💻
 
 <details>
-  <summary> 0. Hola mundo ✅ </summary>
+  <summary> 0. ✅ Codigo 0: Hola mundo  </summary>
   
   ![Hola mundo](https://user-images.githubusercontent.com/99302791/170813868-1a5d2658-2ba2-4c79-9244-faccc0724f85.png)
   
