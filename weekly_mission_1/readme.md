@@ -24,5 +24,57 @@
   
   ![test](https://user-images.githubusercontent.com/99302791/170816459-960dd58c-b7cb-4e9f-8de3-2c046988c291.gif)
 
-  </details>
+</details>
+
+<details>
+  <summary> 1. 🪐 Codigo 1: Objetos de JS</summary>
+  
+  ### Ejercicio 💻
+  > 1. Crea una carpeta llamada "example1" dentro de la carpeta "weekly_mission_1".
+  > 2. Copia el contenido y crea una archivo llamado "main. js" dentro de esta carpeta. 
+  > 3. Ejecuta el siguiente comando: `node main.js`
+  > 4. Este código tambien puede ser probado desde la consola de JavaScript del navegador. 
+  
+`main.js`
+  ```javascript
+// 1. Creación de un objeto con propiedades
+  
+let myCar = new Object(); // Creación de un objeto
+myCar.make = 'Ford'; // Guardando un valor dentro del objeto creado
+myCar.model = 'Mustang';
+myCar.year = 1969;
+  
+console.log(myCar) // Imprimiendo objeto
+  
+// 2. Declaración de un objeto con variables locales y públicas
+const myModule = (() => {
+  
+// Variables de contexto local
+  const privateFoo = "Soy un valor privado, solo me usan dentro de este objeto"
+  const privateBar = [1,2,3,4]
+  const baz = "Soy un valor que va a ser expuesto"
+  
+// Variable para guardar las variables locales
+  const exported = {
+    publicFoo: "Valor público, pueden verme desde donde me llamen",
+    publicBar: "Otro valor público",
+		publicBaz: baz
+  }
+  
+// Exposición de variables locales
+  return exported
+})()
+  
+console.log(myModule)
+ ```
+
+### Código 
+  
+  ![Codigo_1 1_LaunchX](https://user-images.githubusercontent.com/99302791/175697987-26c0fc5f-358b-406e-b2b6-b882f1da53a9.png)
+  
+### Resultados 
+  
+![Codigo_1 1_LaunchX_1](https://user-images.githubusercontent.com/99302791/175698657-fe68ab89-282e-4ea8-adca-91fe19d23dc1.png)
+
+  
   
